@@ -2,3 +2,5 @@
 # 5 times a day and launches a browser to a specified URL
 
 # for ease of use, drop the switcher.py or switcher.counter.py on Desktop for easy User URL manipulation
+
+# Use EITHER swithcer.complex.py or switcher.simple.py (no need for both)
