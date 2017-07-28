@@ -1,0 +1,12 @@
+# located at ~/.config/lxsession/home-pi/autostart (or somewhere close on a RPi2
+# Edit this to launch processes after Desktop loads (i.e. Firefox/Epiphany Browser + URL + '&')
+
+
+# system defaults
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@point-rpi
+
+# launches browser	   to this website
+@/usr/bin/epiphany-browser www.google.com

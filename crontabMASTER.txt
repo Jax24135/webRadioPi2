@@ -1,0 +1,14 @@
+# add these lines after typing "$ sudo crontab -e" into terminal
+# "$ crontab -e" is another crontab file without sudo privileges
+# needs sudo to reboot machine at given times
+
+# based on 24-hour clock (not sure if midnight is 0 or 24, probably 0)
+
+
+
+# m     h       dom     mon     dow     command
+  0     1       *       *       *       /sbin/reboot  # reboot @ 1 AM
+  0     5       *       *       *       /sbin/reboot  # reboot @ 5 AM
+  0     12      *       *       *       /sbin/reboot  # reboot @ noon
+  0     18      *       *       *       /sbin/reboot  # reboot @ 6 PM
+  0     23      *       *       *       /sbin/reboot  # reboot @ 11 PM
