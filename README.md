@@ -3,4 +3,4 @@
 
 # for ease of use, drop the switcher.py or switcher.counter.py on Desktop for easy User URL manipulation
 
-# Use EITHER swithcer.complex.py or switcher.simple.py (no need for both)
+# Use EITHER switcher.complex.py or switcher.simple.py (no need for both)
